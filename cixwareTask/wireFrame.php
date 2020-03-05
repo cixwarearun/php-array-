@@ -1,3 +1,9 @@
+<?php
+   $main='A flower, sometimes known as a bloom or blossom, is the reproductive structure found in flowering plants 
+   (plants of the division Magnoliophyta, also called angiosperms). The biological function of a flower is to affect reproduction, usually by providing a mechanism for the union of sperm with eggs. Flowers may facilitate outcrossing (fusion of sperm and eggs from different individuals in a population) resulting from cross pollination or allow selfing (fusion of sperm and egg from the same flower) when self pollination occurs. Some flowers produce diaspores without fertilization (parthenocarpy). Flowers contain sporangia and are the site where gametophytes develop. Many flowers have evolved to be attractive to animals, so as to cause them to be vectors
+    for the transfer of pollen. After fertilization, the ovary of the flower develops into fruit containing seeds.';
+    $block = 'Lorem ipsum dolor sit amet consectetur adidkjdf  dklfjd dfj dfuoik jklsfuoilj';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -49,13 +55,10 @@
         <div class="mr-32 pt-2 border-2 px-4 pb-2">
              <div class=" flex justify-between"> 
                  <img class="w-64" src="image/binod-1.jpg" alt="">
-                 <div class="mx-8 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum iusto, qui fugit ad earum tempore architecto 
-                     eveniet distinctio ducimus vero minima aperiam odit ex mollitia iste repellendus voluptas officia. Velit.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto reiciendis neque ab eius id odit aliquid? Natus doloremque
-                     placeat alias accusantium unde magni. Voluptates nostrum, esse perspiciatis accusamus recusandae molestias.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus sapiente iste ea, ad, ducimus autem eum voluptatem corrupti quis quae
-                      eius, possimus fuga architecto pariatur consequatur laboriosam amet. Est, distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, nobis temporibus corporis earum sapiente voluptatem repudiandae,
-                       nostrum ullam voluptatum iure veniam, consectetur expedita aliquam pariatur deleniti labore architecto delectus possimus.
+                 <div class="mx-8 text-justify">
+                     <?php
+                        echo $main;
+                     ?>
                  </div> 
              </div>
              <div>
@@ -73,13 +76,17 @@
                      <div>
                          <img class="w-64" src="image/diken.jpg" alt="">
                          <div class="w-64 mt-4">
-                             Lorem ipsum dolor sit amet consectetur adidkjdf  dklfjd dfj dfuoik jklsfuoilj
+                             <?php
+                               echo $block;
+                             ?>
                          </div>
                      </div>
                      <div>
                          <img class="w-64 h-64" src="image/diken.jpg" alt="">
                          <div class="w-64 mt-4">
-                             Lorem ipsum dolor sit amet consectetur adidkjdf  dklfjd dfj dfuoik jklsfuoilj
+                         <?php
+                               echo $block;
+                             ?>
                          </div>
                      </div>
                      <div >
@@ -108,7 +115,9 @@
                                 ?>
                             </table>
                          <div class="w-64 mt-4">
-                             Lorem ipsum dolor sit amet consectetur adidkjdf  dklfjd dfj dfuoik jklsfuoilj
+                             <?php
+                               echo $block;
+                             ?>
                          </div>
                      </div>
                      <div>
@@ -137,17 +146,17 @@
                                 ?>
                             </table>
                          <div class="w-64 mt-4">
-                             Lorem ipsum dolor sit amet consectetur adidkjdf  dklfjd dfj dfuoik jklsfuoilj
+                             <?php
+                               echo $block;
+                             ?>
                          </div>
                      </div>
 
                  </div>
                  <div class="mt-8">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente veritatis dolore, a eum necessitatibus nemo minus facilis 
-                    non doloremque cumque nostrum blanditiis hic similique suscipit. Nulla animi incidunt necessitatibus dolore.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum officia tempora nam, similique quas, amet deserunt maxime
-                     nulla qui reiciendis, possimus eaque assumenda nihil cupiditate odit minus iste quo? Ea? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente sit corporis, harum praesentium quos animi fugit nulla
-                      voluptatibus! Quam quidem perferendis facere optio natus tempore molestiae doloremque reprehenderit eligendi esse?
+                    <?php
+                       echo $main;
+                    ?>
                  </div>
              </div>
             </div>
